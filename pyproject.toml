@@ -1,0 +1,19 @@
+[project]
+name = "wifidebug"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Paul Bersch"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ping3 (>=4.0.8,<5.0.0)",
+    "pysqlite3 (>=0.5.4,<0.6.0)",
+    "matplotlib (>=3.10.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
